@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/detail.css">
+<title>Product Detail</title>
+</head>
+
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">Just Dance</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="product.html">Product</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div id="banner"></div>
+	<div class="container my-3">
+		<div class="row g-0">
+			<h4 class="title my-3">產品預購<small> / Order</small></h4>
+		</div>
+		<div class="row">
+			<div class="col-lg mb-3">
+				<img src="img/6.jpg" alt="彈性頭巾" class="img-thumbnail">
+			</div>
+			<div class="col-lg mb-3">
+				<h4>彈性頭巾</h4>
+				<p>可伸縮有彈性的頭巾，排汗透氣材質，適合運動時配戴，可防止汗水滑落眼睛。</p>
+				<p>價錢：xxx元/件</p>
+				<p>尺寸：<span class="badge bg-danger me-2">M</span><span class="badge bg-warning me-2">L</span></p>
+				<form class="row align-items-end">
+					<div class="col-9">
+						<label for="inlineFormInputNum">數量</label>
+						<div class="input-group">
+							<input type="text" class="form-control" id="inlineFormInputNum">
+						</div>
+					</div>
+					<div class="col-3">
+						<button type="submit" class="btn btn-primary">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+</svg>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<footer class="text-center bg-dark text-white py-2">
+		© 2023 JUST DANCE
+	</footer>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+#banner{
+	background-image: url("../img/dance.jpg");
+	background-position: center top;
+	background-size: cover;
+	height: 650px;
+	margin-top: 3.5rem;
+}
+.title{
+	color: #fa8072;
+	font-weight: bold;
+}
